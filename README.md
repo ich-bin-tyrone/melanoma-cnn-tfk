@@ -30,7 +30,7 @@ The CNN architecture consists of the following layers:
 
 The dataset consists of dermoscopic images labeled as either "Benign" or "Malignant." Below is a sample visualization of the dataset:
 
-![Dataset Samples](./images/output.png)
+![Dataset Samples](./images/samples.png)
 
 ## Training and Validation
 
