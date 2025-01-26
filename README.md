@@ -30,7 +30,7 @@ The CNN architecture consists of the following layers:
 
 The dataset consists of dermoscopic images labeled as either "Benign" or "Malignant." Below is a sample visualization of the dataset:
 
-![Dataset Samples](./output.png)
+![Dataset Samples](./images/output.png)
 
 ## Training and Validation
 
@@ -39,7 +39,7 @@ The model was trained for 100 epochs. The performance metrics are shown in the p
 - **Left Plot**: Accuracy over epochs for training and validation sets.
 - **Right Plot**: Loss over epochs for training and validation sets.
 
-![Training and Validation Performance](./plots.png)
+![Training and Validation Performance](./images/plots.png)
 
 ## Results
 
