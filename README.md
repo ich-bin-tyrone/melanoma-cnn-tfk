@@ -55,7 +55,7 @@ The model achieved the following results:
 Ensure you have the following libraries installed:
 
 ```bash
-pip install tensorflow matplotlib numpy
+pip install tensorflow matplotlib numpy opencv-python
 ```
 
 ### Running the Model
@@ -67,16 +67,12 @@ git clone <repository-url>
 cd <repository-folder>
 ```
 
-2. Train the model:
+2. Run the `model.ipynb` code. It will save the trained model as an `.h5` file named `melanoma_cnn.h5` in your local `Desktop` folder.
 
-```bash
-python train_model.py
-```
+3. Once the `.h5` file is generated, upload your own image to the `test_data` folder. Then, edit **cell 3** of `model_test.ipynb` to match the name of your file and run all the cells.
 
-3. Evaluate the model:
-
-```bash
-python evaluate_model.py
+```python
+image = cv2.imread('test_data/name_of_your_image.jpg')
 ```
 
 ## Future Work
