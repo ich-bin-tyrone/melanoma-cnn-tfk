@@ -47,7 +47,8 @@ The model achieved the following results:
 
 - **Training Accuracy**: High accuracy with low loss.
 - **Validation Accuracy**: Fluctuations indicate potential overfitting, which can be addressed by further tuning hyperparameters or augmenting the dataset.
-
+- **Testing Accuracy**: Obtained 90.43% accuracy.
+  
 ## Usage
 
 ### Prerequisites
