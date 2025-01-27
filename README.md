@@ -1,8 +1,8 @@
-# Melanoma Classification using CNN
+# Melanoma Classification using CNN 🧬
 
 This repository contains a Convolutional Neural Network (CNN) model for classifying melanoma from benign moles using dermoscopic images. The model is trained and evaluated on a dataset of skin lesion images.
 
-## Model Architecture
+## 🏗️ Model Architecture
 
 The CNN architecture consists of the following layers:
 
@@ -26,13 +26,13 @@ The CNN architecture consists of the following layers:
 | dropout_3 (Dropout)        | (None, 512)        | 0          |
 | dense_2 (Dense)            | (None, 2)          | 1,026      |
 
-## Dataset
+## 📁 Dataset
 
 The dataset consists of dermoscopic images labeled as either "Benign" or "Malignant." Below is a sample visualization of the dataset:
 
 ![Dataset Samples](./images/samples.png)
 
-## Training and Validation
+## 📈 Training and Validation
 
 The model was trained for 100 epochs. The performance metrics are shown in the plots below:
 
@@ -41,7 +41,7 @@ The model was trained for 100 epochs. The performance metrics are shown in the p
 
 ![Training and Validation Performance](./images/plots.png)
 
-## Results
+## 🏆 Results
 
 The model achieved the following results:
 
@@ -49,7 +49,7 @@ The model achieved the following results:
 - **Validation Accuracy**: Fluctuations indicate potential overfitting, which can be addressed by further tuning hyperparameters or augmenting the dataset.
 - **Testing Accuracy**: Obtained 90.43% accuracy.
   
-## Usage
+## ⚙️ Usage
 
 ### Prerequisites
 
@@ -76,7 +76,7 @@ cd <repository-folder>
 image = cv2.imread('test_data/name_of_your_image.jpg')
 ```
 
-## Future Work
+## 🌟 Future Work
 
 - Implement data augmentation to improve generalization.
 - Experiment with different architectures and hyperparameter tuning.
