@@ -56,7 +56,7 @@ The model achieved the following results:
 Ensure you have the following libraries installed:
 
 ```bash
-pip install tensorflow matplotlib numpy opencv-python
+pip install numpy opencv-python tensorflow matplotlib pillow scikit-learn
 ```
 
 ### Running the Model
