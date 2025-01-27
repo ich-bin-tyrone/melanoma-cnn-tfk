@@ -1,4 +1,4 @@
-# Melanoma Classification using CNN 🧬
+# 🧬 Melanoma Classification using CNN
 
 This repository contains a Convolutional Neural Network (CNN) model for classifying melanoma from benign moles using dermoscopic images. The model is trained and evaluated on a dataset of skin lesion images.
 
